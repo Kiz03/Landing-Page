@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .one {
+            background-color: #1f2937;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif ;
+            height: 500px;
+        }
+        
+      .one  a {
+            color: grey;
+            text-decoration: none;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+            margin-bottom: 80px;
+        }
+
+      .one  li {
+            display: flex;
+            list-style-type: none;
+            gap: 20px;
+            font-size: small;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+           
+            
+        }
+
+       .content h1 {
+            font-size: 48px;
+            font-weight: bolder;
+            color: #f9faf8;
+
+        }
+
+        .content p {
+            font-size: 18px;
+            color: grey;
+            margin-top: 5px;
+            width: 700px
+          
+        }
+
+        .box {
+            color: white;
+            margin-top: 15px;
+            border-radius: 10px;
+            border-color:lightskyblue;
+            background-color:#318CE7;
+            width: 95px;
+            padding-left: 14px;
+            height: 25px;
+            padding-top: 3px;
+            
+        }
+
+        .one img {
+            width: 400px;
+            height:300px;
+            background-color: rgb(255, 255, 255);
+            padding:15px;
+            margin-right: 285px ;
+            outline: 5px solid  #659ceb;
+            
+        }
+       .with {
+        margin-left: 265px;
+       }
+       
+       .logo {
+        margin-left: 255px;
+       }
+       
+       .link {
+        margin-right: 300px;
+       }
+
+       .two img {
+        width:275px;
+        height: 275px;
+        border-radius: 30px;
+    
+        
+        
+        border: 5px solid #3882f6;
+       
+       }
+
+       
+
+       .headertwo {
+        display: flex;
+       
+        justify-content: center;
+        font-size: 36px;
+        color:#1f2937;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+
+       .imgrow {
+        display: flex;
+       margin-top: 25px;
+        justify-content: center;
+       
+       }
+
+
+       .imgrow li {
+        display: flex;
+        list-style-type: none;
+        gap: 25px;
+        
+       
+       }
+
+       .silo {
+        display:flex;
+        height: fit-content;
+        justify-content: center;
+        margin-left: 95px;
+        margin-top: 25px;
+        color: gray;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+       
+       
+       }
+       .card {
+        display: flex;
+        width: 200px;
+       
+       
+       }
+
+       .card, .on {
+        margin-right: 105px;
+       }
+
+       .card, .tw {
+        
+       }
+
+       .two {
+        margin-top: 15px;
+        height: 75vh;
+       }
+
+       .thre {
+        display: flex;
+        background-color: #e5e7eb;
+        height: 40vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+       }
+
+       .quote {
+        color:#5e6066 ;
+        font-size: 36px;
+        font-weight: lighter;
+        font-style: italic;
+        width: 675px;
+        margin-top: 45px;
+       }
+
+       .Aga {
+        margin-top: 25px;
+        margin-left: 350px;
+        font-weight: 1000;
+        font-size: larger;
+
+       }
+
+       .fourr {
+        display: flex;
+        height: 30vh;
+        justify-content: center;
+        align-items: center;
+
+       }
+
+       .inside {
+        display: flex;
+        background-color:#318CE7 ;
+        border-radius: 10px;
+        width: 800px;
+        height: 200px ;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: space-around;
+       
+       }
+
+       .col {
+        color: white;
+       }
+
+       .col p {
+        color: lightgray;
+        font-weight: lighter;
+        margin-top: 3px;
+        font-size: 15px;
+       }
+
+       .up {
+        color: white;
+        display: flex;
+        
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 100px;
+        
+        padding: 10px;
+        justify-content: center;
+       
+        
+       }
+
+       .fourr a {
+        color: white;
+        text-decoration: none;
+        
+       }
+
+       .box a {
+        color: white;
+       }
+
+       .fave {
+        display: flex;
+        background-color: #1f2937;
+        color: grey;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+       }
+
+
+
+       
+       
+
+       
+
+    
+
+       
+
+       
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="header">
+            <div class="logo">Header Logo</div>
+            <ul class="link">
+                <li>
+                    <a href="link">Header link one</a>
+                    <a href="link">Header link two</a>
+                    <a href="link">Header link three</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="with">
+            <h1>
+                Free Vbucks Now!
+            </h1>
+            <p>
+                Do you want free vbucks? If so enter you information below if you want vbucks! You are one click away from being richer in FORTNITE!!! If you want unlimited vbucks click the link below, enter your credit card information (don't worry we wont charge you at all, we need your card for verification purposes), and finally we need your epic games login details. Provide us with all of this and you'll become the next fortnite BILLIONARE!
+            </p>
+            <div class="box">
+                <a href="link">Sign Up!</a>
+
+            </div>
+           </div>
+            <img src="./th.jfif" alt="vbucks">
+            
+        </div>
+    </div>
+    <div class="two">
+        <div class="headertwo">
+            <h1>
+                What You Can Get
+            </h1>
+        </div>
+        
+            <ul class="imgrow">
+                <li>
+                    <img src="./fortnite-outfit-kondor-1.png">
+                    <img src="./fortnite__73392.png" alt="cool fortnite">
+                    <img src="./fortnite_PNG26.png">
+                    <img src="./fortnite_PNG36.png">
+                </li>
+            </ul>
+
+            <div class="silo">
+                <div class="card on">Look at this cool fortnite outfit! Use our generator and it will be yours!</div>
+                <div class="card tw">Wow want to be cool like your faviroute fortnite character? Enter in the details of your dads or moms credit card and you can be as cool as the fortnite cast!</div>
+                <div class="card three">Want to see through every thing ;) Well say no more, you can! You can buy the blonde guy skin for FREE!!!!!</div>
+                <div class="card four">Want to look like a girzzled war veteren? Again you aqquire this handsome lad by generating yourself some VBUCKS!</div>
+            </div>
+    </div>
+
+    <div class="thre">
+        <div  class="quote">Wow this website really works, thank you Qasim Kazmi, these free vbucks are so amazing and I am so greatful for you to provide them to me. I am forever grateful. Good Day. Cherrio.</div> 
+        <div class="Aga">-Agatha, God of Thunder</div>
+    </div>
+    <div class="fourr">
+        <div class="inside">
+            <div class="col">
+                <h3>Agatha is ready to join the battlefields!</h3>
+                <p>Sign up to play a game with Agatha!</p>
+            </div>
+            <div class="up">
+                <a href="link">Sign Up!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="fave">
+        Copyright © The Odin Project 2021
+    </div>
+
+
+    
+</body>
+</html>
